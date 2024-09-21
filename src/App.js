@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import XCalculator from './XCalculator';
 
 function App() {
   return (
-    <div className="App">
-      Xcalculator
+    <div>
+     <XCalculator/>
     </div>
   );
 }
