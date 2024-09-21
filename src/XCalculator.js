@@ -64,7 +64,7 @@ function XCalculator() {
     <div style={containerStyle}>
       <div style={styles}>
         <h1> React Calculator</h1>
-        <input type="text" value={input} />
+        <input type="text" value={input} style={{ padding: "10px", fontSize: "14px", width: "200px", marginBottom: "20px" }} />
         <div className="result">{result}</div>
         <div>
           <button onClick={() => handleNumClick("7")} style={buttonStyle}>
